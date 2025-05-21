@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+    background-color: #e6e6e6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Apply black color to all links */
+a {
+    text-decoration: none;
+    color: black; /* Ensures all links are black */
+}
+
+/* Keep visited links black */
+a:visited {
+    color: black;
+}
+
+/* Optional: Change hover effect */
+a:hover {
+    color: gray; /* Slight color change on hover */
+}
+/* Center the page within the viewport */
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 60%;
+
+    }
+}
+
