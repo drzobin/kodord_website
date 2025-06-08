@@ -1,2 +1,2 @@
 # kodord_website
-Website for kodord.se
+Website for my company Kodord AB. The website can be seen on https://www.kodord.se
